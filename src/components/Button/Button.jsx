@@ -1,0 +1,28 @@
+import { useState } from "react"
+import './Button.css'
+
+export default function Button ({
+    color,
+    children,
+    onClick,
+    style,
+    className = 'btn'
+}) {
+    const [colorBtn, setColorBtn] = useState (color)
+
+const styleBtn= {
+    backgroundColor : colorBtn,
+    ...style,
+}
+
+function handleClick(){
+    //setColorBtn ('grey');
+    onClick();   //aca le damos una funcionalidad distinta a cada boton 
+}
+
+return (
+    <button className={className} onClick={handleClick} style={styleBtn}>
+        {children}
+    </button>
+    )
+}
