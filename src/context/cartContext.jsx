@@ -5,23 +5,6 @@ export const cartContext = createContext ({cart:[]})
 export function CartContextProvider ({children}) {
     const [cart, setCart] = useState ([])
 
-    // Funcionalidad del carrito: modificar el carrito (cart) llamar a setCart y modificarlo
-
-    // function addItem (product, count) {
-    //     const newCart = [...cart] //copiamos obj : const newCart2 = cart.map (item => item )
-    //     if (isInCart(product.id)) { //Preg si ya existe, actualizar la cantidad count
-    //         let index = cart.findIndex ((cartItem)=>cartItem.id===product.id)  //si ya hay ID = al que estoy agregando
-    //         let itemUpdated = {...newCart[index]}
-    //         itemUpdated.count += count
-    //         setCart(newCart)
-    //     } else {
-    //         newCart.push ({...product, count})
-    //         setCart(newCart)
-    //     }
-        
-    // }
-
-    //OPCION CON MAP
     function addItem (product, count) {
         const newCart = [...cart] 
 

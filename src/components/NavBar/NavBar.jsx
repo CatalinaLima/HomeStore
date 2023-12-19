@@ -20,13 +20,13 @@ export default function NavBar() {
                 <h2 className="logo">
                     <li>
                         <Link to="/">
-                            <img src={'public/assets/catahomestore.png'} alt="Logo" />
+                            <img src={'public/assets/cozyhomestore1.png'} alt="Logo" />
                         </Link>
                     </li>
                 </h2>
 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/category/PlantAccesories">Plant Accesories</Link>
+                    <Link className="nav-link" to="/category/PlantAccessories">Plant Accesories</Link>
                 </li>
 
                 <li className="nav-item">
@@ -38,7 +38,7 @@ export default function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/category/Lightning">Lightning</Link>
+                    <Link className="nav-link" to="/category/Lighting">Lightning</Link>
                 </li>
 
                 <li className="cart-widget">

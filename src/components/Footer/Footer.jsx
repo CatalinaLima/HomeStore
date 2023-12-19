@@ -16,7 +16,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
         </div>
-        <p>&copy; 2023 Cata Home Store. All rights reserved.</p>
+        <p>&copy; 2023 Cozy Home Store. All rights reserved.</p>
     </footer>
     );
 };

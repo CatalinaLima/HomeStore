@@ -22,7 +22,7 @@ function App() {
             <Route path= '/product/:id' element= {<ItemDetailContainer/>} />
             <Route path= '/category/:categoryid' element= {<Homepage/>} />
             <Route path= '/cart' element= {<CartView/>} />
-            <Route path= '/order-confirmation/:orderid' element= {<h1>Gracias por tu compra</h1>} />
+            <Route path= '/order-confirmation/:orderid' element= {<OrderConfirm/>} />
             <Route path= '*' element = { <OrderConfirm/> } />
           </Routes>
         </div>

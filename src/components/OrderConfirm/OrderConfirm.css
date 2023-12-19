@@ -1,0 +1,15 @@
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .car {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .car img {
+    width: 70px;
+    height: 70px;
+  }
+  
